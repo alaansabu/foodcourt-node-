@@ -13,6 +13,7 @@ card.classList.add("card")
 
 
 card.innerHTML = `
+
 <div class="img-container">
 <input type="file" name="image" class="image" placeholder="+">
 <img class="preview"  alt="image preview">
@@ -20,7 +21,6 @@ card.innerHTML = `
     <input type = "text" placeholder="name">
     <input type = "text" placeholder="price">
 <button class = "submit-btn">submit</button>
-
 `
 
 
